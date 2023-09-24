@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    border: 0;
+    align-items: center;
+    text-align: center;
+    font-family: Martian Mono;
+    
+}
+
+h1{
+    background-color: lightgreen;
+    color: yellow;
+}
+
+#container{
+
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#row{
+    margin: 8px 0;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: yellow;
+    width: 60px;
+    
+}
+
+#row input{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    background-color: lightgreen;
+}
+.button:hover{
+    background-color: lightgreen;
+    color: white;
+}
+#row input:hover{
+    background-color: yellow;
+}
